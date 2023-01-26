@@ -7,23 +7,25 @@
 html,body{
     width: 100%;
     height: 100%;
-    font-size: 16px;
+    font-size: 1vw;
     overflow-x: hidden;
 }
 
 body {
-    display: block;
+    height: 100vh;
+    display: flex;
     font-family: 'Inter', sans-serif;
     font-style: normal;
 }
 
 .maincontent {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: flex-start;
     padding: 0px;
     position: relative;
+    flex-grow: 1;
 }
 
 ul {
@@ -36,7 +38,7 @@ ul {
 
 .sidebar {
     position: fixed;
-    width: 362px;
+    width: 25%;
     height: 100%;
     background: #FFFFFF;
     display: flex;
@@ -65,6 +67,7 @@ ul {
 }
 
 .header-icon {
+    width: 0.01vw;
     margin-bottom: 24px;
 }
 .sidebar-icon-container {
@@ -72,7 +75,8 @@ ul {
 }
 
 .sidebar-icons {
-    margin-left: -8px;
+    width: 0.01vw;
+    margin-left: -6px;
 }
 
 .sidebar-footer {
@@ -88,7 +92,7 @@ ul {
 
 .side-menu {
     display: flex;
-    width: 280px;
+    width: 19vw;
     height: 100%;
     border-right: 1px solid #EAECF0;
     flex-direction: column;
@@ -186,13 +190,13 @@ h3 {
     align-items: flex-start;
     padding: 0px 0px 48px;
     gap: 48px;
-    width: 1078px;
+    width: 75%;
     height: 1729px;
     background: #FCFCFD;
     flex: none;
     order: 1;
     flex-grow: 1;
-    margin-left: 362px;
+    margin-left: 25%;
 }
 
 .content-header {
@@ -200,7 +204,7 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    width: 1078px;
+    width: 100%;
     height: 360px;
     flex: none;
     order: 0;
@@ -209,7 +213,7 @@ h3 {
 }
 
 .image-wrapper {
-    width: 1078px;
+    width: 100%;
     height: 240px;
     flex: none;
     order: 0;
@@ -221,7 +225,7 @@ h3 {
 .img-header-bg {
     position: absolute;
     height: 240px;
-    width: 1078px;
+    width: 100%;
     top: 0px;
 }
 
@@ -246,7 +250,7 @@ h3 {
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
-    width: 1014px;
+    width: 100%;
     height: 160px;
     flex: none;
     order: 0;
@@ -262,7 +266,7 @@ h3 {
     padding: 64px 0px 0px;
     margin-left:-16px;
     gap: 20px;
-    width: 830px;
+    width: 83%;
     height: 130px;
     flex: none;
     order: 1;
@@ -276,7 +280,7 @@ h3 {
     align-items: flex-start;
     padding: 0px;
     gap: 16px;
-    width: 830px;
+    width: 100%;
     height: 66px;
     flex: none;
     order: 1;
@@ -290,7 +294,7 @@ h3 {
     align-items: flex-start;
     padding: 0px;
     gap: 4px;
-    width: 589px;
+    width: 55%;
     height: 66px;
     flex: none;
     order: 0;
@@ -303,7 +307,7 @@ h3 {
     align-items: flex-start;
     padding: 0px;
     gap: 12px;
-    width: 225px;
+    width: 45%;
     height: 40px;
     flex: none;
     order: 1;
@@ -354,7 +358,7 @@ h3 {
     align-items: flex-start;
     padding: 0px;
     gap: 32px;
-    width: 1078px;
+    width: 100%;
     height: 1273px;
     flex: none;
     order: 1;
@@ -368,7 +372,7 @@ h3 {
     align-items: flex-start;
     padding: 0px 32px;
     gap: 24px;
-    width: 1078px;
+    width: 100%;
     height: 1273px;
     flex: none;
     order: 0;
@@ -382,7 +386,7 @@ h3 {
     align-items: flex-start;
     padding: 0px;
     gap: 20px;
-    width: 1014px;
+    width: 94.5%;
     height: 1273px;
     flex: none;
     order: 0;
@@ -396,7 +400,7 @@ h3 {
     align-items: flex-start;
     padding: 0px;
     gap: 32px;
-    width: 1014px;
+    width: 100%;
     height: 435px;
     flex: none;
     order: 0;
@@ -409,7 +413,7 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    width: 280px;
+    width: 28%;
     height: 40px;
     flex: none;
     order: 0;
@@ -427,7 +431,7 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    width: 702px;
+    width: 70%;
     height: 435px;
     background: #FFFFFF;
     border: 1px solid #EAECF0;
@@ -445,7 +449,7 @@ h3 {
     align-items: flex-start;
     padding: 24px;
     gap: 24px;
-    width: 702px;
+    width: 98%;
     height: 362px;
     background: #FFFFFF;
     flex: none;
@@ -459,8 +463,8 @@ h3 {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 24px;
-    width: 654px;
+    gap: 14%;
+    width: 93%;
     height: 70px;
     flex: none;
     order: 0;
@@ -474,7 +478,7 @@ h3 {
     align-items: flex-start;
     padding: 0px;
     gap: 6px;
-    width: 315px;
+    width: 48%;
     height: 70px;
     flex: none;
     order: 0;
@@ -488,7 +492,7 @@ h3 {
     align-items: center;
     padding: 10px 14px;
     gap: 8px;
-    width: 315px;
+    width: 100%;
     height: 44px;
     background: #FFFFFF;
     border: 1px solid #D0D5DD;
@@ -509,7 +513,7 @@ h3 {
     align-items: flex-start;
     padding: 0px;
     gap: 6px;
-    width: 654px;
+    width: 100%;
     height: 70px;
     flex: none;
     order: 1;
@@ -523,7 +527,7 @@ h3 {
     align-items: flex-start;
     padding: 0px;
     gap: 6px;
-    width: 654px;
+    width: 102.3%;
     height: 70px;
     flex: none;
     order: 0;
@@ -532,7 +536,7 @@ h3 {
 }
 
 .input-box-2 .input-styles{
-    width: 654px;
+    width: 100%;
     height: 44px;
 }
 
@@ -542,7 +546,7 @@ h3 {
     align-items: flex-start;
     padding: 0px;
     gap: 20px;  
-    width: 654px;
+    width: 100%;
     height: 126px;
     flex: none;
     order: 2;
@@ -556,7 +560,7 @@ h3 {
     align-items: flex-start;
     padding: 0px;
     gap: 16px;
-    width: 570px;
+    width: 87.15%;
     height: 126px;
     flex: none;
     order: 1;
@@ -569,7 +573,7 @@ h3 {
     align-items: center;
     padding: 16px 24px;
     gap: 4px;
-    width: 570px;
+    width: 100%;
     height: 126px;
     background: #FFFFFF;
     border: 1px dashed #EAECF0;
@@ -586,7 +590,7 @@ h3 {
     align-items: center;
     padding: 0px;
     gap: 12px;
-    width: 522px;
+    width: 91.57%;
     height: 94px;
     flex: none;
     order: 0;
@@ -600,7 +604,7 @@ h3 {
     align-items: center;
     padding: 0px;
     gap: 4px;
-    width: 522px;
+    width: 100%;
     height: 42px;
     flex: none;
     order: 1;
@@ -615,7 +619,7 @@ h3 {
     align-items: flex-start;
     padding: 0px;
     gap: 4px;
-    width: 522px;
+    width: 100%;
     height: 20px;
     flex: none;
     order: 0;
@@ -630,7 +634,7 @@ h3 {
     align-items: center;
     padding: 0px;
     gap: 8px;
-    width: 101px;
+    width: 25% ;
     height: 20px;
     flex: none;
     order: 0;
@@ -638,23 +642,17 @@ h3 {
 }
 
 .fu-button-text {
-    width: 101px;
-    height: 20px;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
     color: #6941C6;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    cursor: pointer;
 }
 
 h4 {
     font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
     color: #475467;
     text-align: center;
     flex: none;
@@ -669,7 +667,7 @@ h4 {
     align-items: center;
     padding: 0px 0px 16px;
     gap: 16px;
-    width: 702px;
+    width: 98%;
     height: 73px;
     flex: none;
     order: 1;
@@ -684,7 +682,7 @@ h4 {
     align-items: center;
     padding: 0px 24px;
     gap: 16px;
-    width: 702px;
+    width: 100%;
     height: 40px;
     flex: none;
     order: 1;
@@ -699,7 +697,7 @@ h4 {
     align-items: center;
     padding: 0px;
     gap: 12px;
-    width: 654px;
+    width: 93.16%;
     height: 40px;
     flex: none;
     order: 1;
@@ -712,7 +710,7 @@ h4 {
     align-items: flex-start;
     padding: 0px;
     gap: 32px;
-    width: 1014px;
+    width: 100%;
     height: 797px;
     flex: none;
     order: 2;
@@ -726,7 +724,7 @@ h4 {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    width: 702px;
+    width: 70%;
     height: 797px;
     background: #FFFFFF;
     border: 1px solid #EAECF0;
@@ -744,7 +742,7 @@ h4 {
     align-items: flex-start;
     padding: 24px;
     gap: 24px;
-    width: 702px;
+    width: 100%;
     height: 724px;
     flex: none;
     order: 0;
@@ -758,7 +756,7 @@ h4 {
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
-    width: 654px;
+    width: 100%;
     height: 40px;
     flex: none;
     order: 0;
@@ -846,7 +844,7 @@ input[type=checkbox]:checked::after {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    width: 654px;
+    width: 100%;
     height: 44px;
     background: #FFFFFF;
     border: 1px solid #D0D5DD;
@@ -864,7 +862,7 @@ input[type=checkbox]:checked::after {
     align-items: center;
     text-align: center;
     padding: 10px 12px 10px 14px;
-    width: 139px;
+    width: 25%;
     height: 44px;
     border-radius: 8px 0px 0px 8px;
     flex: none;
@@ -879,7 +877,7 @@ input[type=checkbox]:checked::after {
     align-items: center;
     padding: 10px 14px;
     gap: 8px;
-    width: 515px;
+    width: 75%;
     height: 44px;
     background: #FFFFFF;
     border: 1px solid #D0D5DD;
@@ -899,7 +897,7 @@ input[type=checkbox]:checked::after {
     align-items: flex-start;
     padding: 0px;
     gap: 12px;
-    width: 654px;
+    width: 100%;
     height: 236px;
     flex: none;
     order: 3;
@@ -913,7 +911,7 @@ input[type=checkbox]:checked::after {
     align-items: flex-start;
     padding: 0px;
     gap: 6px;
-    width: 654px;
+    width: 100%;
     height: 180px;
     flex: none;
     order: 0;
@@ -927,7 +925,7 @@ input[type=checkbox]:checked::after {
     align-items: flex-start;
     padding: 0px;
     gap: 6px;
-    width: 654px;
+    width: 100%;
     height: 154px;
     flex: none;
     order: 0;
@@ -942,7 +940,7 @@ input[type=checkbox]:checked::after {
     resize: none;
     padding: 12px 14px;
     gap: 8px;
-    width: 654px;
+    width: 100%;
     height: 128px;
     background: #FFFFFF;
     border: 1px solid #D0D5DD;
@@ -965,7 +963,7 @@ input[type=checkbox]:checked::after {
     align-items: center;
     padding: 0px;
     gap: 12px;
-    width: 654px;
+    width: 100%;
     height: 44px;
     flex: none;
     order: 1;
@@ -979,7 +977,7 @@ input[type=checkbox]:checked::after {
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
-    width: 240px;
+    width: 37%;
     height: 44px;
     flex: none;
     order: 0;
@@ -992,7 +990,7 @@ input[type=checkbox]:checked::after {
     align-items: center;
     padding: 10px 14px;
     gap: 8px;
-    width: 240px;
+    width: 100%;
     height: 44px;
     background: #FFFFFF;
     border: 1px solid #D0D5DD;
@@ -1010,7 +1008,7 @@ input[type=checkbox]:checked::after {
     align-items: center;
     padding: 0px;
     gap: 8px;
-    width: 184px;
+    width: 77%;
     height: 24px;
     flex: none;
     order: 0;
@@ -1023,7 +1021,7 @@ input[type=checkbox]:checked::after {
     align-items: flex-start;
     padding: 0px;
     gap: 4px;
-    width: 176px;
+    width: 27%;
     height: 32px;
     flex: none;
     order: 1;
@@ -1036,9 +1034,24 @@ input[type=checkbox]:checked::after {
     align-items: center;
     padding: 0px;
     gap: 8px; 
-    width: 598px;
+    width: 91.44%;
     height: 24px;
     flex: none;
     order: 0;
     flex-grow: 1;
 }
+
+@media only screen and (max-width: 992px) {
+    .sidebar {
+        width: 81px;
+    }
+    .side-menu {
+        display:none;
+    }
+    .content-wrapper {
+        width:100%-81px;
+        margin-left: 81px;
+    }
+
+}
+
